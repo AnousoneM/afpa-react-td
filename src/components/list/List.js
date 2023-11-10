@@ -1,4 +1,5 @@
 import { useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react';
 import './List.css';
 
@@ -25,14 +26,15 @@ function List() {
 
     return (
         <div className="container">
-            <h2>Liste des films</h2>
-            <p>{search.data}</p>  {/* data correspond au paramètre de la route */}
+            <h1>Liste des films</h1>
+            <p>Films recherchés : <b>{search.data}</b></p>  {/* data correspond au paramètre de la route */}
             {films.map((film) => {
                 return (
-                    <Film key={film.id}  poster={film.poster_path} abstract={film.overview} />
+                    <Film key={film.id} poster={film.poster_path} abstract={film.overview} />
                 )
             }
             )}
+            <Link to="/search" className="nav-item">Retour</Link>
         </div>
     );
 }
