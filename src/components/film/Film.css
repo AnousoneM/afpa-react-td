@@ -1,0 +1,14 @@
+.film {
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    width: 50vw;
+    background-color: aliceblue;
+    color: black;
+}
+
+.film img {
+    width: 10rem;
+    padding: 1rem;
+}

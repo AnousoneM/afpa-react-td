@@ -3,7 +3,9 @@
 }
 
 .search fieldset {
-    margin: 20px 0px;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 50vw;
 }
 
 .search label {
@@ -11,6 +13,9 @@
 }
 
 .search input {
-    Margin-left: 100px;
     Font-size: 1.4rem;
+}
+
+.button {
+    padding: 5px 20px;
 }

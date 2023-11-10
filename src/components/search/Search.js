@@ -12,12 +12,13 @@ function Search() {
 
     return (
         <div className="search">
+            <h1>Recherche de films</h1>
             <form onSubmit={handleSubmit}>
                 <fieldset>
-                    <label htmlFor="idSearch">Votre recherche</label>
-                    <input id="idSearch" name="search" type="text" />
+                    <label htmlFor="idSearch">Saisissez le nom du film</label>
+                    <input id="idSearch" name="search" type="text" placeholder='ex. Titanic'/>
                 </fieldset>
-                <input type="submit" value="Rechercher" />
+                <input className="button" type="submit" value="Rechercher" />
             </form>
         </div>
     );

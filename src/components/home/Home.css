@@ -20,6 +20,10 @@
     color: white;
 }
 
+button {
+    padding: 0.8rem 2rem;
+}
+
 @keyframes App-logo-spin {
     from {
         transform: rotate(0deg);

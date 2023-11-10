@@ -5,6 +5,7 @@
      
  .nav {
     display: flex;
+    justify-content: center;
     list-style-type: none;
 }
      
@@ -12,7 +13,7 @@
     color: white;
     background-color: blueviolet;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 5px 25px;
-    padding: 5px;
+    padding: 0.5rem 2rem;
 }
